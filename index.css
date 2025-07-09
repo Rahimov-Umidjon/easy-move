@@ -1,0 +1,36 @@
+/*.services{*/
+/*    height: 0;*/
+/*    transition: all  0.5s;*/
+/*}*/
+
+
+/*.active-services{*/
+/*    height: max-content;*/
+/*    transition: all  0.5s;*/
+
+/*}*/
+
+
+.services {
+    height: 100px;
+    opacity: 0;
+    width: 100%;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+
+.services:hover {
+    opacity: 1;
+    height: 100%;
+    transition: 0.5s;
+
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE & Edge */
+    scrollbar-width: none;     /* Firefox */
+}

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="113a8e8a-8733-4e26-ba59-ed769ed1643d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../my-react-app/public/3-User.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/public/Category.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/public/Chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/public/Edit Square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/public/EllipseBottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/public/EllipseTop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/public/Instagram-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/public/Linkedin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/public/MaskGroup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/public/Twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/public/backgroundMask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/public/cardImg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/public/cardImg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/public/cardImg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/public/cardImg4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/public/cardImg5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/public/close-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/public/dropDownIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/public/dropdownIcon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/public/iconYotube.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/public/instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/public/locition.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/public/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/public/menueIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/public/robort.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/public/robot2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/public/tel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/public/telegram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/public/time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/public/twitterFooter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/public/youtube.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/components/SignUp/SignUp.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/components/SignUp/SignUp.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/components/body/bodyPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/components/body/bodyPage.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/components/body/bodyPageMedia.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/components/bottomPage/bottomPagemedia.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/components/bottomPage/bottomPge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/components/bottomPage/bottompage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/components/carousel/carousel.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/components/carousel/carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/components/carousel/carouselmedia.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/components/courses/courses.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/components/courses/courses.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/components/courses/coursesMedia.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/components/getCourses/getCourses.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/components/getCourses/getCourses.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/components/getCourses/getCoursesMedia.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/components/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/components/location/location.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/components/location/location.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/components/location/locationMedia.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/components/media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/components/navbar/navbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/components/navbar/navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/components/navbar/navbarMedia.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/const/button/button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/const/button/button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/const/card/card.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/const/card/card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/const/card/cardmedia.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/const/droupDown/droupDown.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/const/droupDown/droupDown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/const/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/const/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/const/input/input.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/const/input/input.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/const/media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/i18n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/locales/ru/translation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-react-app/src/media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/CaruselOne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/NLstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Safia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/box-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/boxTwo-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/carusel-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/carusel-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/carusel-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/email-blak.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img-faml.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/kareana.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/left-carusel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/location-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/menu-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mirArab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phone-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/right-carusel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/rightSign.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/safia-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/salon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/services-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/services-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/services-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/services-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/services-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/servises-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/telegram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/work-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/work-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/work-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/work-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/work-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/work-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/youtube.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2zYl5oHJBito9Ji5AOguFUlZ1iB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rahim/Desktop/project-test/images&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.3.1.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rahim\Desktop\project-test\images" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="113a8e8a-8733-4e26-ba59-ed769ed1643d" name="Changes" comment="" />
+      <created>1751915708176</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751915708176</updated>
+      <workItem from="1751915709652" duration="1915000" />
+      <workItem from="1751917650431" duration="809000" />
+      <workItem from="1751919415743" duration="1662000" />
+      <workItem from="1751921194385" duration="594000" />
+      <workItem from="1751921814610" duration="3277000" />
+      <workItem from="1751952232099" duration="10652000" />
+      <workItem from="1751981366026" duration="3890000" />
+      <workItem from="1751987308142" duration="15984000" />
+      <workItem from="1752039737671" duration="44760000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
