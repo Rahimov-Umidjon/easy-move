@@ -78,52 +78,13 @@
       <change afterPath="$PROJECT_DIR$/../my-react-app/src/i18n.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-react-app/src/locales/ru/translation.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-react-app/src/media.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/CaruselOne.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/NLstore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Safia.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/box-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/boxTwo-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/carusel-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/carusel-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/carusel-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/email-blak.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img-faml.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/instagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/kareana.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/left-carusel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/location-black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/location.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/menu-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/mirArab.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/phone-black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/right-carusel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/rightSign.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/safia-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/salon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/services-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/services-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/services-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/services-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/services-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/servises-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/sms.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/telegram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/work-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/work-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/work-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/work-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/work-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/work-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/youtube.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/carusel-mobile-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/carusel-mobile-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/carusel-mobile-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/carusel-mobile-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.css" beforeDir="false" afterPath="$PROJECT_DIR$/output.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +102,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -157,7 +118,7 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/rahim/Desktop/project-test/images&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -197,7 +158,8 @@
       <workItem from="1751952232099" duration="10652000" />
       <workItem from="1751981366026" duration="3890000" />
       <workItem from="1751987308142" duration="15984000" />
-      <workItem from="1752039737671" duration="44760000" />
+      <workItem from="1752039737671" duration="45329000" />
+      <workItem from="1752130194567" duration="7062000" />
     </task>
     <servers />
   </component>
