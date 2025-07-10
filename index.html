@@ -14,36 +14,89 @@
 <body class="font-inter">
 
 
-<nav class="py-3 px-6 md:px-12 lg:px-18 xl:px-28  flex justify-between items-center bg-white  ">
-    <img class="w-[100px] h-[32px] md:w-[118px] md:h-[38px]" src="images/logo.png" alt="logo">
+<nav class="py-3 px-6 md:px-12 lg:px-18 xl:px-28  flex justify-between items-center bg-[#F8F8F8]  ">
+
+
+    <img onclick="window.location.href='index.html'" class="w-[100px] h-[32px] md:w-[118px] md:h-[38px] cursor-pointer" src="images/logo.png" alt="logo">
 
     <div id="navbar-menu"
-         class="hidden md:flex px-3  text-[10px] md:text-[10px] lg:text-xs xl:text-base items-center justify-center md:gap-8 xl:gap-12">
-        <a href="#" class="font-medium  hover:text-home ">Услуги </a>
-        <a href="#" class="font-medium hover:text-home">Партнеры </a>
-        <a href="#" class="font-medium hover:text-home">Галерея </a>
-        <a href="#" class="font-medium whitespace-nowrap hover:text-home">О нас </a>
-        <a href="#" class="font-medium hover:text-home">Контакты</a>
+         class="hidden relative md:flex px-3  text-[10px] md:text-[10px] lg:text-xs xl:text-base items-center justify-center md:gap-8 xl:gap-12">
+        <div  class="relative group inline-block z-50">
+            <button onclick="handleServices()" class="px-4 py-2 font-semibold text-gray-700 hover:text-green-600">
+                Услуги
+            </button>
+            <div id="services-navbar" class="w-[300px] p-6 absolute hidden  bg-white shadow-lg mt-1 z-10">
+                <a href="#" class="block py-3 hover:text-home text-sm">Квартирный переезд</a>
+                <a href="#" class="block py-3 hover:text-home text-sm">Офисный переезд</a>
+                <a href="#" class="block py-3 hover:text-home text-sm">Услуги грузчиков</a>
+                <a href="#" class="block py-3 hover:text-home text-sm">Грузоперевозки</a>
+                <a href="#" class="block py-3 hover:text-home text-sm">Разборка-сборка мебели</a>
+                <a href="#" class="block py-3 hover:text-home text-sm">Монтаж кондиционеров</a>
+                <a href="#" class="block py-3 hover:text-home text-sm">Уборка</a>
+            </div>
+        </div>
+
+        <a   href="#" class="  font-medium hover:text-home">Партнеры </a>
+        <a   href="#" class="  font-medium hover:text-home">Галерея </a>
+        <a   href="#" class="  font-medium whitespace-nowrap hover:text-home">О нас </a>
+        <a   href="#" class="  font-medium hover:text-home">Контакты</a>
     </div>
 
 
     <div class="flex items-center justify-between gap-5">
         <div class="block font-semibold text-black-20  leading-none">
-            <p class="block    md:text-xs lg:text-sm xl:text-lg whitespace-nowrap    ">+998 94 280 37 38 </p>
-            <p class="block    md:text-xs lg:text-sm xl:text-lg whitespace-nowrap    ">+998 93 399 90 51 </p>
+            <p class="block    md:text-xs lg:text-sm xl:text-lg whitespace-nowrap ">+998 94 280 37 38 </p>
+            <p class="block    md:text-xs lg:text-sm xl:text-lg whitespace-nowrap ">+998 93 399 90 51 </p>
             <p class=" hidden md:block text-lg   md:text-[8px] lg:text-xs xl:text-sm text-[#7D7D7D]">c 8:00 до 01:00,
                 ежедневно</p>
         </div>
-        <button class="hidden md:flex whitespace-nowrap text-[10px] md:text-[10px] lg:text-xs xl:text-base  bg-home text-white px-5 py-3">
+        <button data-modal-target="questionModalHome" data-modal-toggle="questionModalHome" class="hidden md:flex whitespace-nowrap text-[10px] md:text-[10px] lg:text-xs xl:text-base  bg-home text-white px-5 py-3">
             Задать вопрос
         </button>
+
+
+        <div id="questionModalHome" tabindex="-1" aria-hidden="true"
+             class="text-[#8F8F8F] fixed top-0 left-0 right-0 z-50  hidden w-full p-4 overflow-x-hidden  ">
+
+            <div class="bg-white w-[500px]  px-4 md:px-8 py-4  ">
+                <div class="modal-header flex items-center justify-between mb-4">
+                    <h1 class="font-semibold text-2xl text-home">Задать вопрос</h1>
+                    <img data-modal-hide="questionModalHome"  class="hover:bg-[#F7F7F7] p-3" src="../images/closed.png" alt="closed">
+                </div>
+                <div class="">
+                    <label class="block text-base mb-3 text-[#333333]" for="name">Введите имя<small  class="text-red-600 text-base ">*</small></label>
+                    <input  type="text" id="name"  class="bg-[#F7F7F7] text-black-20 w-full pl-2 h-[35px] md:h-[50px] focus:border-0 rounded-none"/>
+                </div>
+                <div class="mt-4">
+                    <label class="block text-base mb-3 text-[#333333]" for="name">Номер телефон<small  class="text-red-600 text-base ">*</small></label>
+                    <input placeholder="+998 97 217 75 56" type="text" id="phone"  class="bg-[#F7F7F7] text-black-20 w-full pl-2 h-[35px] md:h-[50px] focus:border-0 rounded-none"/>
+                </div>
+
+                <div class="mt-4 ">
+
+                    <label class="block text-base mb-3 text-[#333333]" for="name">Сообщение</label>
+                    <textarea onclick="calculator()" type="" id="textura-question"
+                              class="w-full h-[124px] text-black-20 bg-[#F7F7F7] pl-2   focus:border-0 rounded-none"></textarea>
+
+                </div>
+
+                <button data-modal-hide="questionModalHome"  class="h-[35px] md:h-[50px] mt-4 w-full border bg-home text-white">Отправить</button>
+
+            </div>
+
+        </div>
+
+
+
+
+
     </div>
     <button onclick="handleMenu()" class="md:hidden  ">
         <img src="images/menu-icon.png" alt="">
     </button>
 
     <div   id="navbar-dialog"
-         class="hidden z-50 fixed inset-0   py-3 px-6 md:px-24 border-b border-gray-200 bg-white">
+         class="hidden z-50  fixed inset-0 overflow-y-auto    py-3 px-6 md:px-24 border-b border-gray-200 bg-white">
         <div class="flex justify-between " id="nav-bar">
             <a href="#" id="brand2">
                 <img class="w-[100px] h-[32px] md:w-[118px] md:h-[38px]" src="images/logo.png" alt="logo">
@@ -72,14 +125,14 @@
                     <a href="#" class="font-medium m-3 p-3 ">Услуги</a>
                     <img id="rightBottom" src="./images/right.png" alt="">
                 </div>
-                <div id="openDiv" class="hidden">
-                    <a href="#" class="font-medium m-2 p-2 block ">Квартирный переезд</a>
-                    <a href="#" class="font-medium m-2 p-2 block ">Офисный переезд</a>
-                    <a href="#" class="font-medium m-2 p-2 block ">Услуги грузчиков</a>
-                    <a href="#" class="font-medium m-2 p-2 block ">Грузоперевозки</a>
-                    <a href="#" class="font-medium m-2 p-2 block ">Разборка-сборка мебели</a>
-                    <a href="#" class="font-medium m-2 p-2 block ">Монтаж кондиционера</a>
-                    <a href="#" class="font-medium m-2 p-2 block ">Уборка</a>
+                <div id="openDiv" class="hidden ml-5">
+                    <a href="#" class="font-medium m-2 p-2 block hover:bg-gray-50">Квартирный переезд</a>
+                    <a href="#" class="font-medium m-2 p-2 block hover:bg-gray-50">Офисный переезд</a>
+                    <a href="#" class="font-medium m-2 p-2 block hover:bg-gray-50">Услуги грузчиков</a>
+                    <a href="#" class="font-medium m-2 p-2 block hover:bg-gray-50">Грузоперевозки</a>
+                    <a href="#" class="font-medium m-2 p-2 block hover:bg-gray-50">Разборка-сборка мебели</a>
+                    <a href="#" class="font-medium m-2 p-2 block hover:bg-gray-50">Монтаж кондиционера</a>
+                    <a href="#" class="font-medium m-2 p-2 block hover:bg-gray-50">Уборка</a>
                 </div>
             </div>
 
@@ -114,7 +167,7 @@
 </nav>
 
 
-<div id="default-carousel" class="relative w-full h-screen" data-carousel="slide">
+<div id="default-carousel" class="relative w-full h-screen  " data-carousel="slide">
     <div class="relative h-full overflow-hidden   ">
         <div class="hidden   duration-700 ease-in-out" data-carousel-item>
             <!--            desktop carousel img-->
@@ -138,8 +191,8 @@
                         <br> Они выполняют практически весь
                         перечень работ при переезде.</p>
                     <div class="mt-8  md:mt-0     items-center justify-center gap-6">
-                        <button class=" bg-home  mr-1 md:mr-4  text-xs sm:text-base text-white px-5 py-3">Оставить заявку</button>
-                        <button class=" bg-white  text-xs sm:text-base text-home px-5 py-3">Калькулятор</button>
+                        <button  class=" bg-home  mr-1 md:mr-4  text-xs sm:text-base text-white px-5 py-3">Оставить заявку</button>
+                        <button data-modal-target="orderModal" data-modal-toggle="orderModal" class=" bg-white  text-xs sm:text-base text-home px-5 py-3">Калькулятор</button>
                     </div>
 
                     <div class="flex   items-center text-xs   md:text-base justify-center mt-20">
@@ -160,7 +213,7 @@
             <img src="images/carusel-mobile-2.png"
                  class="absolute block md:hidden  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 w-full h-full object-cover"
                  alt=" carusel-mobile-2">
-            <div class="absolute px-6 top-0 left-0 z-40 w-full h-full flex items-center justify-center bg-black bg-opacity-50">
+            <div class="absolute px-6 top-0 left-0   w-full h-full flex items-center justify-center bg-black bg-opacity-50">
                 <div class=" text-start  md:text-center ">
                     <h1 class="text-white text-2xl font-bold md:text-3xl lg:text-4xl xl:text-[42px] ">Услуги грузчиков в
                         Ташкенте</h1>
@@ -168,8 +221,8 @@
                         дела являются ключевыми фигурами в ходе грузоперевозок.
                         <br> Они выполняют практически весь перечень работ при переезде.</p>
                     <div class="mt-8  md:mt-0     items-center justify-center gap-6">
-                        <button class=" bg-home mr-1 md:mr-4  text-xs sm:text-base text-white px-5 py-3">Оставить заявку</button>
-                        <button class=" bg-white text-xs sm:text-base text-home px-5 py-3">Калькулятор</button>
+                        <button  class=" bg-home mr-1 md:mr-4  text-xs sm:text-base text-white px-5 py-3">Оставить заявку</button>
+                        <button data-modal-target="orderModal" data-modal-toggle="orderModal" class=" bg-white text-xs sm:text-base text-home px-5 py-3">Калькулятор</button>
                     </div>
 
                     <div class="flex   items-center text-xs   md:text-base justify-center mt-20">
@@ -190,14 +243,14 @@
             <img src="images/carusel-mobile-3.png"
                  class="absolute block md:hidden  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 w-full h-full object-cover"
                  alt=" carusel-mobile-3">
-            <div class="absolute px-6 top-0 left-0 z-40 w-full h-full flex items-center justify-center bg-black bg-opacity-50">
+            <div class="absolute px-6 top-0 left-0   w-full h-full flex items-center justify-center bg-black bg-opacity-50">
                 <div class=" text-start  md:text-center ">
                     <h1 class="text-white text-2xl font-bold md:text-3xl lg:text-4xl xl:text-[42px] ">Кондиционер монтаж в Ташкенте</h1>
                     <p class="text-white hidden md:block text-sm  md:text-sm lg:text-base mb-8 mt-5">Нужна качественная установка кондиционера в квартире, офисе или
                         <br> коммерческом помещении?</p>
                     <div class="mt-8  md:mt-0     items-center justify-center gap-6">
-                        <button class=" bg-home  mr-1 md:mr-4 text-xs sm:text-base text-white px-5 py-3">Оставить заявку</button>
-                        <button class=" bg-white text-xs sm:text-base text-home px-5 py-3">Калькулятор</button>
+                        <button  onclick="window.location.href='./services-two/services-two.html'" class=" bg-home  mr-1 md:mr-4 text-xs sm:text-base text-white px-5 py-3">Оставить заявку</button>
+                        <button data-modal-target="orderModal" data-modal-toggle="orderModal" class=" bg-white text-xs sm:text-base text-home px-5 py-3">Калькулятор</button>
                     </div>
 
                     <div class="flex   items-center text-xs   md:text-base justify-center mt-20">
@@ -218,15 +271,15 @@
             <img src="images/carusel-mobile-1.png"
                  class="absolute block md:hidden  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 w-full h-full object-cover"
                  alt=" carusel-mobile-1">
-            <div class="absolute px-6 top-0 left-0 z-40 w-full h-full flex items-center justify-center bg-black bg-opacity-50">
+            <div class="absolute px-6 top-0 left-0   w-full h-full flex items-center justify-center bg-black bg-opacity-50">
                 <div class=" text-start  md:text-center ">
                     <h1 class="text-white text-2xl font-bold md:text-3xl lg:text-4xl xl:text-[42px] ">Разборка-сборка мебели в Ташкенте</h1>
                     <p class="text-white hidden md:block text-sm  md:text-sm lg:text-base mb-8 mt-5"> Наша компания предоставляет профессиональные услуги по разборке и
                         <br>сборке мебели в Ташкенте: шкафов, кроватей, кухонь, столов, стенок и любой
                         <br> другой корпусной мебели.</p>
                     <div class="mt-8  md:mt-0  items-center justify-center gap-6">
-                        <button class=" bg-home mr-1 md:mr-4 text-xs sm:text-base text-white px-5 py-3">Оставить заявку</button>
-                        <button class=" bg-white text-xs sm:text-base text-home px-5 py-3">Калькулятор</button>
+                        <button onclick="window.location.href='./furniture/furniture.html'" class="  bg-home mr-1 md:mr-4 text-xs sm:text-base text-white px-5 py-3">Оставить заявку</button>
+                        <button data-modal-target="orderModal" data-modal-toggle="orderModal" class=" bg-white text-xs sm:text-base text-home px-5 py-3">Калькулятор</button>
                     </div>
 
                     <div class="flex   items-center text-xs   md:text-base justify-center mt-20">
@@ -238,93 +291,70 @@
                 </div>
             </div>
         </div>
-        <!--        <div class="hidden duration-700 ease-in-out" data-carousel-item>-->
-        <!--            &lt;!&ndash;            desktop carousel img&ndash;&gt;-->
-        <!--            <img src="images/carusel-2.png"-->
-        <!--                 class="absolute  md:block   -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 w-full h-full object-cover"-->
-        <!--                 alt="carusel-2">-->
-        <!--            &lt;!&ndash;            mobile carousel img&ndash;&gt;-->
-        <!--            <img src="images/carusel-mobile-2.png"-->
-        <!--                 class="absolute block md:hidden  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 w-full h-full object-cover"-->
-        <!--                 alt=" carusel-mobile-2">-->
-        <!--            <div class="absolute top-0 left-0 z-40 w-full h-full flex items-center justify-center bg-black bg-opacity-50">-->
-        <!--                <div class="   text-center">-->
-        <!--                    <h1 class="text-white text-3xl md:text-3xl lg:text-4xl ">Услуги грузчиков в Ташкенте</h1>-->
-        <!--                    <p class="text-white text-sm  md:text-sm lg:text-base mb-8 mt-5">Грузчики по сути дела являются-->
-        <!--                        ключевыми фигурами в ходе грузоперевозок.-->
-        <!--                        <br> Они выполняют практически весь перечень работ при переезде.</p>-->
-        <!--                    <div class="flex items-center justify-center gap-6">-->
-        <!--                        <button class=" bg-home text-white px-5 py-3">Оставить заявку</button>-->
-        <!--                        <button class=" bg-white text-home px-5 py-3">Калькулятор</button>-->
-        <!--                    </div>-->
 
-        <!--                    <div class="flex items-center justify-center mt-20">-->
-        <!--                        <p class="text-white">Профессиональная <br>упаковка</p>-->
-        <!--                        <p class="border-l border-r text-white mx-5 px-2">Индивидуальный <br>подход</p>-->
-        <!--                        <p class="text-white">Многолетний опыт <br>в области</p>-->
-        <!--                    </div>-->
+        <div id="orderModal" tabindex="-1" aria-hidden="true"
+             class="text-[#8F8F8F] fixed top-0 left-0 right-0 z-50 hidden  w-full p-4 overflow-x-hidden  ">
 
-        <!--                </div>-->
-        <!--            </div>-->
-        <!--        </div>-->
-        <!--        <div class="hidden duration-700 ease-in-out" data-carousel-item>-->
-        <!--            &lt;!&ndash;            desktop carousel img&ndash;&gt;-->
-        <!--            <img src="images/carusel-3.png"-->
-        <!--                 class="absolute  md:block   -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 w-full h-full object-cover"-->
-        <!--                 alt=" carusel-3">-->
-        <!--            &lt;!&ndash;            mobile carousel img&ndash;&gt;-->
-        <!--            <img src="images/carusel-mobile-3.png"-->
-        <!--                 class="absolute block md:hidden  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 w-full h-full object-cover"-->
-        <!--                 alt=" carusel-mobile-3">-->
-        <!--            <div class="absolute top-0 left-0 z-40 w-full h-full flex items-center justify-center bg-black bg-opacity-50">-->
-        <!--                <div class="text-center ">-->
-        <!--                    <h1 class="text-white text-3xl md:text-3xl lg:text-4xl ">Кондиционер монтаж в Ташкенте</h1>-->
-        <!--                    <p class="text-white text-sm  md:text-sm lg:text-base mb-8 mt-5">Нужна качественная установка-->
-        <!--                        кондиционера в квартире, офисе или-->
-        <!--                        <br> коммерческом помещении?</p>-->
-        <!--                    <div class="flex items-center justify-center gap-6">-->
-        <!--                        <button class=" bg-home text-white px-5 py-3">Оставить заявку</button>-->
-        <!--                        <button class=" bg-white text-home px-5 py-3">Калькулятор</button>-->
-        <!--                    </div>-->
+            <div class="bg-white w-[550px] h-[95vh] px-4 md:px-8 py-4  overflow-y-scroll    ">
+                <div class="modal-header mb-4">
+                    <h1 class="font-semibold text-2xl text-home">Калькулятор</h1>
+                </div>
+                <div class="block md:flex gap-2">
+                    <div class="w-full md:w-1/2">
+                        <label class="block text-base mb-3" for="adres1">Адрес погрузки</label>
+                        <input type="text" id="adres1" class="bg-[#F7F7F7] text-black-20 w-full pl-2 h-[35px] md:h-[50px] focus:border-0 rounded-none"/>
+                    </div>
+                    <img class="hidden md:block w-[18px] h-[14px] mt-[52px]" src="./images/right-left.png" alt="right-left">
+                    <div class="w-full md:w-1/2">
+                        <label class="block text-base mb-3" for="adres2">Адрес выгрузки</label>
+                        <input type="text" id="adres2" class="bg-[#F7F7F7] text-black-20 w-full pl-2 h-[35px] md:h-[50px] focus:border-0 rounded-none"/>
+                    </div>
+                </div>
+                <div class="block md:flex gap-6 ">
+                    <div class="w-full md:w-1/2 pt-4">
+                        <label class="block text-base mb-3" for="car">Выбрать машину</label>
 
-        <!--                    <div class="flex items-center justify-center mt-20">-->
-        <!--                        <p class="text-white">Профессиональная <br>упаковка</p>-->
-        <!--                        <p class="border-l border-r text-white mx-5 px-2">Индивидуальный <br>подход</p>-->
-        <!--                        <p class="text-white">Многолетний опыт <br>в области</p>-->
-        <!--                    </div>-->
+                        <select id="car" class="bg-[#F7F7F7] text-black-20 w-full pl-2 h-[35px] md:h-[50px] focus:border-0 rounded-none" >
+                            <option>Labo</option>
+                            <option>Matiz</option>
+                            <option>spark</option>
+                        </select>
+                    </div>
+                    <div class="w-full md:w-1/2 pt-4 ">
+                        <label class="block text-base mb-3 " for="data">Когда</label>
+                        <input type="date"  id="data" class="bg-[#F7F7F7] text-black-20 w-full pl-2 h-[35px] md:h-[50px] focus:border-0 rounded-none"/>
+                    </div>
+                </div>
 
-        <!--                </div>-->
-        <!--            </div>-->
-        <!--        </div>-->
-        <!--        <div class="hidden duration-700 ease-in-out" data-carousel-item>-->
-        <!--            &lt;!&ndash;            desktop carousel img&ndash;&gt;-->
-        <!--            <img src="images/carusel-4.png"-->
-        <!--                 class="absolute  md:block   -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 w-full h-full object-cover"-->
-        <!--                 alt=" carusel-4">-->
-        <!--            &lt;!&ndash;            mobile carousel img&ndash;&gt;-->
-        <!--            <img src="images/carusel-mobile-4.png"-->
-        <!--                 class="absolute block md:hidden  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 w-full h-full object-cover"-->
-        <!--                 alt=" carusel-mobile-4">-->
-        <!--            <div class="absolute top-0 left-0 z-40 w-full h-full flex items-center justify-center bg-black bg-opacity-50">-->
-        <!--                <div class="text-center ">-->
-        <!--                    <h1 class="text-white text-3xl md:text-3xl lg:text-4xl ">Разборка-сборка мебели в Ташкенте</h1>-->
-        <!--                    <p class="text-white text-sm  md:text-sm lg:text-base mb-8 mt-5">Наша компания предоставляет-->
-        <!--                        профессиональные услуги по разборке и <br> сборке мебели в Ташкенте: шкафов, кроватей, кухонь,-->
-        <!--                        столов, стенок и любой <br>другой корпусной мебели.</p>-->
-        <!--                    <div class="flex items-center justify-center gap-6">-->
-        <!--                        <button class=" bg-home text-white px-5 py-3">Оставить заявку</button>-->
-        <!--                        <button class=" bg-white text-home px-5 py-3">Калькулятор</button>-->
-        <!--                    </div>-->
+                <div class="block md:flex gap-6 ">
+                    <div class="w-full md:w-[40%]     pt-4 ">
+                        <label class="block text-base mb-3" for="number">Грузчики</label>
+                        <div class="relative">
+                            <input type="number" id="number"  value="0"   class="hide-arrows w-full pl-2 text-black-20   bg-[#F7F7F7] h-[35px] md:h-[50px] focus:border-0 rounded-none"/>
+                            <div class="flex absolute top-1/2 translate-y-[-50%]  right-3 gap-2">
+                                <div id="minus" onclick="decr()" class="w-[32px] cursor-pointer h-[32px] bg-white flex items-center justify-center">-</div>
+                                <div id="plus"  onclick="incr()" class="w-[32px] cursor-pointer h-[32px] bg-white flex items-center justify-center">+</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-[60%] pt-4">
+                        <label class="block text-base mb-3" for="tel">Грузчики</label>
+                        <input type="text" id="tel" value="+998" class="w-full text-black-20 bg-[#F7F7F7] h-[35px] md:h-[50px] focus:border-0 rounded-none"/>
+                    </div>
+                </div>
 
-        <!--                    <div class="flex items-center justify-center mt-20">-->
-        <!--                        <p class="text-white">Профессиональная <br>упаковка</p>-->
-        <!--                        <p class="border-l border-r text-white mx-5 px-2">Индивидуальный <br>подход</p>-->
-        <!--                        <p class="text-white">Многолетний опыт <br>в области</p>-->
-        <!--                    </div>-->
+                <div class="block md:flex gap-6 ">
+                    <div class="w-full pt-4">
+                        <label class="block text-base mb-3" for="textura">Комментарий к заказу</label>
+                        <textarea onclick="calculator()" type="" id="textura"   class="w-full h-[124px] text-black-20 bg-[#F7F7F7] pl-2   focus:border-0 rounded-none"></textarea>
+                    </div>
+                </div>
 
-        <!--                </div>-->
-        <!--            </div>-->
-        <!--        </div>-->
+                <button id="btn-next" class="h-[35px] md:h-[50px] mt-4 w-full border bg-[#D9D9D9]">Оформить</button>
+
+            </div>
+
+        </div>
 
     </div>
 
@@ -343,12 +373,12 @@
     </div>
     <!-- Slider controls -->
     <button type="button"
-            class="absolute hidden top-0 start-6 lg:start-16 z-50 md:flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            class="absolute hidden top-0 start-6 lg:start-16 z-30 md:flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
             data-carousel-prev>
         <img src="./images/left-carusel.png" alt="right">
     </button>
     <button type="button"
-            class="absolute hidden top-0 end-6 lg:end-16    z-50 md:flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            class="absolute hidden top-0 end-6 lg:end-16    z-30 md:flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
             data-carousel-next>
         <img src="./images/right-carusel.png" alt="right">
     </button>
@@ -439,12 +469,45 @@
     <p class="text-center text-3xl font-semibold mb-14">Наши услуги</p>
 
     <div class="w-full  grid  grid-cols-1 md:grid-cols-2  lg:grid-cols-4 gap-5">
+
+        <div id="servicesModal" tabindex="-1" aria-hidden="true"
+             class="text-[#8F8F8F] fixed top-0 left-0 right-0 z-50  hidden w-full p-4 overflow-x-hidden  ">
+
+            <div class="bg-white w-[500px]  px-4 md:px-8 py-4  ">
+                <div class="modal-header flex items-center justify-between mb-4">
+                    <h1 class="font-semibold text-2xl text-home">Заказать услугу</h1>
+                    <img data-modal-hide="servicesModal"  class="hover:bg-[#F7F7F7] p-3" src="../images/closed.png" alt="closed">
+                </div>
+                <div class="">
+                    <label class="block text-base mb-3 text-[#333333]" for="name">Введите имя<small  class="text-red-600 text-base ">*</small></label>
+                    <input  type="text" id="servicesName"  class="bg-[#F7F7F7] text-black-20 w-full pl-2 h-[35px] md:h-[50px] focus:border-0 rounded-none"/>
+                </div>
+                <div class="mt-4">
+                    <label class="block text-base mb-3 text-[#333333]" for="name">Номер телефон<small  class="text-red-600 text-base ">*</small></label>
+                    <input placeholder="+998 97 217 75 56" type="text" id="servicesPhone"  class="bg-[#F7F7F7] text-black-20 w-full pl-2 h-[35px] md:h-[50px] focus:border-0 rounded-none"/>
+                </div>
+
+                <div class="mt-4 ">
+
+                    <label class="block text-base mb-3 text-[#333333]" for="name">Сообщение</label>
+                    <textarea onclick="calculator()" type="" id="textura-services"
+                              class="w-full h-[124px] text-black-20 bg-[#F7F7F7] pl-2   focus:border-0 rounded-none"></textarea>
+
+                </div>
+
+                <button data-modal-hide="servicesModal"  class="h-[35px] md:h-[50px] mt-4 w-full border bg-home text-white">Отправить</button>
+
+            </div>
+
+        </div>
+
+
         <div class="h-[300px] relative group     bg-[#EAEAEA] p-6     ">
             <h1 class="font-semibold text-[20px]">Квартирный переезд <br> в Ташкенте</h1>
             <img class="absolute bottom-0 right-0" src="./images/servises-1.png" alt="services-1">
             <div class="absolute inset-0 bg-home flex flex-col items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <button class=" w-[150px]  h-[50px] text-white  px-4 py-2 border border-white  ">Подробнее</button>
-                <button class=" w-[150px]  h-[50px] text-home bg-white   py-2 ">Заказать услугу</button>
+                <button onclick="window.location.href='./apartment/apartment.html'" class=" w-[150px]  h-[50px] text-white  px-4 py-2 border border-white  ">Подробнее</button>
+                <button data-modal-target="servicesModal" data-modal-toggle="servicesModal" class=" w-[150px]  h-[50px] text-home bg-white   py-2 ">Заказать услугу</button>
             </div>
         </div>
 
@@ -452,8 +515,8 @@
             <h1 class="h-full font-semibold text-[20px] flex items-end  justify-end">Офисный переезд <br>в Ташкенте</h1>
             <img class="absolute top-0 left-0 " src="./images/services-2.png" alt="services-2">
             <div class="absolute inset-0 bg-home flex flex-col items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <button class=" w-[150px]  h-[50px] text-white  px-4 py-2 border border-white  ">Подробнее</button>
-                <button class=" w-[150px]  h-[50px] text-home bg-white   py-2 ">Заказать услугу</button>
+                <button onclick="window.location.href='./office/office.html'" class=" w-[150px]  h-[50px] text-white  px-4 py-2 border border-white  ">Подробнее</button>
+                <button data-modal-target="servicesModal" data-modal-toggle="servicesModal" class=" w-[150px]  h-[50px] text-home bg-white   py-2 ">Заказать услугу</button>
             </div>
         </div>
 
@@ -467,13 +530,9 @@
                         минуту</p>
                 </div>
                 <div class="flex items-center justify-around gap-4">
-                    <a href="#" class="text-xs text-home">Подробнее</a>
-                    <button class="border border-gray-400 bg-home text-white px-5 py-3">Задать вопрос</button>
+                    <a href="./services/services.html" class="text-xs text-home">Подробнее</a>
+                    <button data-modal-target="questionModalHome" data-modal-toggle="questionModalHome" class="border border-gray-400 bg-home text-white px-5 py-3">Задать вопрос</button>
                 </div>
-            </div>
-            <div class="absolute inset-0 bg-home flex flex-col items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <button class=" w-[150px]  h-[50px] text-white  px-4 py-2 border border-white  ">Подробнее</button>
-                <button class=" w-[150px]  h-[50px] text-home bg-white  py-2 ">Заказать услугу</button>
             </div>
         </div>
 
@@ -483,23 +542,23 @@
                     <h1 class=" font-semibold text-[20px] text-start ">Грузоперевозки по <br> городу Ташкенту</h1>
                 </div>
                 <div class=" h-2/3 flex flex-col items-start justify-between md:h-auto md:flex-row md:items-center md:justify-end  gap-3 ">
-                    <button class="border border-gray-400 bg-home text-white px-5 py-3">Заказать услугу</button>
+                    <button data-modal-target="servicesModal" data-modal-toggle="servicesModal" class="border border-gray-400 bg-home text-white px-5 py-3">Заказать услугу</button>
                     <a href="#" class="text-xs block text-home">Подробнее</a>
                 </div>
             </div>
             <img class="absolute bottom-0 right-0 z-[-1]" src="./images/services-4.png" alt="services-4">
-            <div class="absolute inset-0 bg-home flex flex-col items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <button class=" w-[150px]  h-[50px] text-white  px-4 py-2 border border-white  ">Подробнее</button>
-                <button class=" w-[150px]  h-[50px] text-home bg-white   py-2 ">Заказать услугу</button>
-            </div>
+<!--            <div class="absolute inset-0 bg-home flex flex-col items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">-->
+<!--                <button class=" w-[150px]  h-[50px] text-white  px-4 py-2 border border-white  ">Подробнее</button>-->
+<!--                <button data-modal-target="servicesModal" data-modal-toggle="servicesModal" class=" w-[150px]  h-[50px] text-home bg-white   py-2 ">Заказать услугу</button>-->
+<!--            </div>-->
         </div>
 
         <div class="h-[300px] relative group bg-[#EAEAEA] p-6 ">
             <h1 class="font-semibold text-[20px]">Разборка-сборка мебели</h1>
             <img class="absolute bottom-0 right-0" src="./images/services-5.png" alt="services-5">
             <div class="absolute inset-0 bg-home flex flex-col items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <button class=" w-[150px]  h-[50px] text-white  px-4 py-2 border border-white  ">Подробнее</button>
-                <button class=" w-[150px]  h-[50px] text-home bg-white   py-2 ">Заказать услугу</button>
+                <button onclick="window.location.href='./furniture/furniture.html'" class=" w-[150px]  h-[50px] text-white  px-4 py-2 border border-white  ">Подробнее</button>
+                <button data-modal-target="servicesModal" data-modal-toggle="servicesModal" class=" w-[150px]  h-[50px] text-home bg-white   py-2 ">Заказать услугу</button>
             </div>
         </div>
 
@@ -507,8 +566,8 @@
             <h1 class="h-full font-semibold text-[20px] flex items-end  justify-end">Монтаж кондиционера</h1>
             <img class="absolute top-0 left-0 " src="./images/services-6.png" alt="services-6">
             <div class="absolute inset-0 bg-home flex flex-col items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <button class=" w-[150px]  h-[50px] text-white  px-4 py-2 border border-white  ">Подробнее</button>
-                <button class=" w-[150px]  h-[50px] text-home bg-white   py-2 ">Заказать услугу</button>
+                <button onclick="window.location.href='./services-two/services-two.html'" class=" w-[150px]  h-[50px] text-white  px-4 py-2 border border-white  ">Подробнее</button>
+                <button data-modal-target="servicesModal" data-modal-toggle="servicesModal" class=" w-[150px]  h-[50px] text-home bg-white   py-2 ">Заказать услугу</button>
             </div>
         </div>
     </div>

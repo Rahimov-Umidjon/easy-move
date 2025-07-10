@@ -78,13 +78,22 @@
       <change afterPath="$PROJECT_DIR$/../my-react-app/src/i18n.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-react-app/src/locales/ru/translation.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-react-app/src/media.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/carusel-mobile-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/carusel-mobile-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/carusel-mobile-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/carusel-mobile-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apartment/apartment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/calculator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/furniture/furniture.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/closed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/konditsaner-services.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/office.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/right-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/office/office.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services-two/services-two.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/services.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.css" beforeDir="false" afterPath="$PROJECT_DIR$/output.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,9 +104,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -159,7 +168,10 @@
       <workItem from="1751981366026" duration="3890000" />
       <workItem from="1751987308142" duration="15984000" />
       <workItem from="1752039737671" duration="45329000" />
-      <workItem from="1752130194567" duration="7062000" />
+      <workItem from="1752130194567" duration="13733000" />
+      <workItem from="1752145048777" duration="1000" />
+      <workItem from="1752145150409" duration="6651000" />
+      <workItem from="1752151909412" duration="20503000" />
     </task>
     <servers />
   </component>

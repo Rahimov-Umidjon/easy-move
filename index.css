@@ -11,13 +11,29 @@
 /*}*/
 
 
-.services {
-    height: 100px;
-    opacity: 0;
-    width: 100%;
-    border: 1px solid black;
-    transition: 0.5s;
-}
+/*.services-navbar {*/
+/*    height: 100px;*/
+/*    opacity: 0;*/
+/*    width: 100%;*/
+/*    border: 1px solid black;*/
+/*    transition: 0.5s;*/
+/*}*/
+
+/*.services-navbar:hover {*/
+/*    opacity: 1;*/
+/*    height: 100%;*/
+/*    transition: 0.5s;*/
+
+/*}*/
+
+
+/*.services-navbar {*/
+/*    height: 100px;*/
+/*    opacity: 0;*/
+/*    width: 100%;*/
+/*    border: 1px solid black;*/
+/*    transition: 0.5s;*/
+/*}*/
 
 .services:hover {
     opacity: 1;
@@ -33,4 +49,16 @@
 .scrollbar-hide {
     -ms-overflow-style: none;  /* IE & Edge */
     scrollbar-width: none;     /* Firefox */
+}
+
+
+.hide-arrows::-webkit-outer-spin-button,
+.hide-arrows::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox uchun */
+.hide-arrows[type=number] {
+    -moz-appearance: textfield;
 }
