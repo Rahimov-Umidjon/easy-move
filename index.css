@@ -1,39 +1,7 @@
-/*.services{*/
-/*    height: 0;*/
-/*    transition: all  0.5s;*/
-/*}*/
 
-
-/*.active-services{*/
-/*    height: max-content;*/
-/*    transition: all  0.5s;*/
-
-/*}*/
-
-
-/*.services-navbar {*/
-/*    height: 100px;*/
-/*    opacity: 0;*/
-/*    width: 100%;*/
-/*    border: 1px solid black;*/
-/*    transition: 0.5s;*/
-/*}*/
-
-/*.services-navbar:hover {*/
-/*    opacity: 1;*/
-/*    height: 100%;*/
-/*    transition: 0.5s;*/
-
-/*}*/
-
-
-/*.services-navbar {*/
-/*    height: 100px;*/
-/*    opacity: 0;*/
-/*    width: 100%;*/
-/*    border: 1px solid black;*/
-/*    transition: 0.5s;*/
-/*}*/
+html{
+    scroll-behavior: smooth;
+}
 
 .services:hover {
     opacity: 1;

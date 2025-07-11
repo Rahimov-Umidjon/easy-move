@@ -14,58 +14,83 @@
 </head>
 <body class="font-inter">
 
-
-<nav class="py-3 px-6 md:px-12 lg:px-18 xl:px-28  flex justify-between items-center bg-[#F8F8F8]  ">
-    <img onclick="window.location.href='../index.html'" class="w-[100px] h-[32px] md:w-[118px] md:h-[38px] cursor-pointer" src="../images/logo.png" alt="logo">
+<nav class="py-3 h-[80px] px-6   lg:px-14 xl:px-28 flex justify-between items-center bg-[#F8F8F8]  ">
+    <img onclick="window.location.href='../index.html'" class="w-[100px] h-[32px] md:w-[118px] md:h-[38px] cursor-pointer"
+         src="../images/logo.png" alt="logo">
     <div id="navbar-menu"
-         class="hidden relative md:flex px-3  text-[10px] md:text-[10px] lg:text-xs xl:text-base items-center justify-center md:gap-8 xl:gap-12">
+         class="hidden   relative md:flex px-3  text-[10px] md:text-sm  xl:text-base items-center justify-center   md:gap-4 xl:gap-10">
         <div class="relative group inline-block z-50">
-            <button onclick="handleServices()" class="px-4 py-2 font-semibold text-gray-700 hover:text-green-600">
+
+            <button id="menu-button" onclick="handleServices()"
+                    class="relative font-medium text-black transition-colors   hover:text-home after:absolute md:after:bottom-[-30px] lg:after:bottom-[-30px] xl:after:bottom-[-28px] after:left-0 after:h-[4px] after:w-0  after:bg-home after:transition-all after:duration-500 hover:after:w-full">
                 Услуги
             </button>
-            <div id="services-navbar" class="w-[300px] p-6 absolute hidden  bg-white shadow-lg mt-1 z-10">
-                <a href="#" class="block py-3 hover:text-home text-sm">Квартирный переезд</a>
-                <a href="#" class="block py-3 hover:text-home text-sm">Офисный переезд</a>
-                <a href="#" class="block py-3 hover:text-home text-sm">Услуги грузчиков</a>
-                <a href="#" class="block py-3 hover:text-home text-sm">Грузоперевозки</a>
-                <a href="#" class="block py-3 hover:text-home text-sm">Разборка-сборка мебели</a>
-                <a href="#" class="block py-3 hover:text-home text-sm">Монтаж кондиционеров</a>
+
+            <div id="services-navbar" class="w-[300px] p-6 absolute hidden  bg-white shadow-lg md:mt-[29px] lg:mt-[28px] z-10">
+                <a href="../apartment/apartment.html" class="block py-3 hover:text-home text-sm">Квартирный переезд</a>
+                <a href="../office/office.html" class="block py-3 hover:text-home text-sm">Офисный переезд</a>
+                <a href="../services/services.html" class="block py-3 hover:text-home text-sm">Услуги грузчиков</a>
+                <a href="../" class="block py-3 hover:text-home text-sm">Грузоперевозки</a>
+                <a href="../furniture/furniture.html" class="block py-3 hover:text-home text-sm">Разборка-сборка мебели</a>
+                <a href="../services-two/services-two.html" class="block py-3 hover:text-home text-sm">Монтаж кондиционеров</a>
                 <a href="#" class="block py-3 hover:text-home text-sm">Уборка</a>
             </div>
         </div>
 
-        <a href="#" class="  font-medium hover:text-home">Партнеры </a>
-        <a href="#" class="  font-medium hover:text-home">Галерея </a>
-        <a href="#" class="  font-medium whitespace-nowrap hover:text-home">О нас </a>
-        <a href="#" class="  font-medium hover:text-home">Контакты</a>
+        <a href="../index.html#Partners"
+           class="relative font-medium text-black transition-colors   hover:text-home after:absolute md:after:bottom-[-30px] lg:after:bottom-[-30px] xl:after:bottom-[-28px] after:left-0 after:h-[4px] after:w-0  after:bg-home after:transition-all after:duration-500 hover:after:w-full">
+            Партнеры
+        </a>
+        <a href="../index.html#Gallery"
+           class="relative font-medium text-black transition-colors   hover:text-home after:absolute md:after:bottom-[-30px] lg:after:bottom-[-30px] xl:after:bottom-[-28px] after:left-0 after:h-[4px] after:w-0  after:bg-home after:transition-all after:duration-500 hover:after:w-full">
+            Галерея
+        </a>
+        <a href="../index.html#about"
+           class="whitespace-nowrap relative font-medium text-black transition-colors   hover:text-home after:absolute md:after:bottom-[-30px] lg:after:bottom-[-30px] xl:after:bottom-[-28px] after:left-0 after:h-[4px] after:w-0  after:bg-home after:transition-all after:duration-500 hover:after:w-full">
+            О нас
+        </a>
+
+        <a href="../index.html#Contacts"
+           class="relative font-medium text-black transition-colors
+            hover:text-home after:absolute md:after:bottom-[-30px] lg:after:bottom-[-30px] xl:after:bottom-[-28px] after:left-0 after:h-[4px] after:w-0
+            after:bg-home after:transition-all after:duration-500 hover:after:w-full">
+            Контакты
+        </a>
+
+
     </div>
     <div class="flex items-center justify-between gap-5">
-        <div class="block font-semibold text-black-20  leading-none">
-            <p class="block    md:text-xs lg:text-sm xl:text-lg whitespace-nowrap    ">+998 94 280 37 38 </p>
-            <p class="block    md:text-xs lg:text-sm xl:text-lg whitespace-nowrap    ">+998 93 399 90 51 </p>
-            <p class=" hidden md:block text-lg   md:text-[8px] lg:text-xs xl:text-sm text-[#7D7D7D]">c 8:00 до 01:00,
+        <div class="block font-semibold text-black-20   ">
+            <p style="line-height: 90%" class=" md:text-xs lg:text-sm xl:text-lg whitespace-nowrap leading-snug ">+998 94 280 37 38 </p>
+            <p style="line-height: 90%" class=" md:text-xs lg:text-sm xl:text-lg whitespace-nowrap leading-snug ">+998 93 399 90 51 </p>
+            <p class=" hidden md:block     md:text-[8px] lg:text-xs xl:text-sm text-[#7D7D7D]">c 8:00 до 01:00,
                 ежедневно</p>
         </div>
-        <button data-modal-target="questionModalOffice" data-modal-toggle="questionModalOffice" class="hidden md:flex whitespace-nowrap text-[10px] md:text-[10px] lg:text-xs xl:text-base  bg-home text-white px-5 py-3">
+        <button data-modal-target="questionModalHome" data-modal-toggle="questionModalHome"
+                class="hidden md:flex whitespace-nowrap text-[10px] md:text-[10px] lg:text-xs xl:text-base  bg-home text-white px-5 py-3">
             Задать вопрос
         </button>
 
 
-        <div id="questionModalOffice" tabindex="-1" aria-hidden="true"
+        <div id="questionModalHome" tabindex="-1" aria-hidden="true"
              class="text-[#8F8F8F] fixed top-0 left-0 right-0 z-50  hidden w-full p-4 overflow-x-hidden  ">
-
             <div class="bg-white w-[500px]  px-4 md:px-8 py-4  ">
                 <div class="modal-header flex items-center justify-between mb-4">
                     <h1 class="font-semibold text-2xl text-home">Задать вопрос</h1>
-                    <img data-modal-hide="questionModalOffice"  class="hover:bg-[#F7F7F7] p-3" src="../images/closed.png" alt="closed">
+                    <img data-modal-hide="questionModalHome" class="hover:bg-[#F7F7F7] p-3" src="../images/closed.png"
+                         alt="closed">
                 </div>
                 <div class="">
-                    <label class="block text-base mb-3 text-[#333333]" for="name">Введите имя<small  class="text-red-600 text-base ">*</small></label>
-                    <input  type="text" id="questionName"  class="bg-[#F7F7F7] text-black-20 w-full pl-2 h-[35px] md:h-[50px] focus:border-0 rounded-none"/>
+                    <label class="block text-base mb-3 text-[#333333]" for="name">Введите имя<small
+                            class="text-red-600 text-base ">*</small></label>
+                    <input type="text" id="questionName"
+                           class="bg-[#F7F7F7] text-black-20 w-full pl-2 h-[35px] md:h-[50px] focus:border-0 rounded-none"/>
                 </div>
                 <div class="mt-4">
-                    <label class="block text-base mb-3 text-[#333333]" for="name">Номер телефон<small  class="text-red-600 text-base ">*</small></label>
-                    <input placeholder="+998 97 217 75 56" type="text" id="questionPhone"  class="bg-[#F7F7F7] text-black-20 w-full pl-2 h-[35px] md:h-[50px] focus:border-0 rounded-none"/>
+                    <label class="block text-base mb-3 text-[#333333]" for="name">Номер телефон<small
+                            class="text-red-600 text-base ">*</small></label>
+                    <input placeholder="+998 97 217 75 56" type="text" id="questionPhone"
+                           class="bg-[#F7F7F7] text-black-20 w-full pl-2 h-[35px] md:h-[50px] focus:border-0 rounded-none"/>
                 </div>
 
                 <div class="mt-4 ">
@@ -76,28 +101,28 @@
 
                 </div>
 
-                <button data-modal-hide="questionModalOffice"  class="h-[35px] md:h-[50px] mt-4 w-full border bg-home text-white">Отправить</button>
+                <button onclick="sendMessage()" data-modal-hide="questionModalHome"
+                        class="h-[35px] md:h-[50px] mt-4 w-full border bg-home text-white">Отправить
+                </button>
+
 
             </div>
-
         </div>
-
-
     </div>
     <button onclick="handleMenu()" class="md:hidden  ">
         <img src="../images/menu-icon.png" alt="">
     </button>
 
     <div id="navbar-dialog"
-         class="hidden z-50  fixed inset-0 overflow-y-auto    py-3 px-6 md:px-24 border-b border-gray-200 bg-white">
-        <div class="flex justify-between " id="nav-bar">
-            <a href="#" id="brand2">
+         class="hidden       md:hidden  items-center   z-50  fixed inset-0 overflow-y-auto scrollbar-hide pb-3 px-6 md:px-24 border-b border-gray-200 bg-white">
+        <div class="flex items-center h-[80px] justify-between " id="nav-bar">
+            <a href="../index.html" id="brand2">
                 <img class="w-[100px] h-[32px] md:w-[118px] md:h-[38px]" src="../images/logo.png" alt="logo">
             </a>
             <div class="flex items-center justify-between gap-5">
                 <div class="block font-semibold text-black-20  leading-none">
-                    <p class="block    md:text-xs lg:text-sm xl:text-lg whitespace-nowrap    ">+998 94 280 37 38 </p>
-                    <p class="block    md:text-xs lg:text-sm xl:text-lg whitespace-nowrap    ">+998 93 399 90 51 </p>
+                    <p class="block    md:text-xs lg:text-sm xl:text-lg whitespace-nowrap ">+998 94 280 37 38 </p>
+                    <p class="block    md:text-xs lg:text-sm xl:text-lg whitespace-nowrap ">+998 93 399 90 51 </p>
                     <p class=" hidden md:block text-lg   md:text-[8px] lg:text-xs xl:text-sm text-[#7D7D7D]">c 8:00 до
                         01:00, ежедневно</p>
                 </div>
@@ -112,51 +137,66 @@
 
 
         <div class="mt-6  ">
-
             <div id="handleServices" onclick="" class="">
                 <div class="flex cursor-pointer border-b items-center justify-between gap-5 pr-6 hover:bg-gray-50">
                     <a href="#" class="font-medium m-3 p-3 ">Услуги</a>
                     <img id="rightBottom" src="../images/right.png" alt="">
                 </div>
                 <div id="openDiv" class="hidden ml-5">
-                    <a href="#" class="font-medium m-2 p-2 block hover:bg-gray-50">Квартирный переезд</a>
-                    <a href="#" class="font-medium m-2 p-2 block hover:bg-gray-50">Офисный переезд</a>
-                    <a href="#" class="font-medium m-2 p-2 block hover:bg-gray-50">Услуги грузчиков</a>
-                    <a href="#" class="font-medium m-2 p-2 block hover:bg-gray-50">Грузоперевозки</a>
-                    <a href="#" class="font-medium m-2 p-2 block hover:bg-gray-50">Разборка-сборка мебели</a>
-                    <a href="#" class="font-medium m-2 p-2 block hover:bg-gray-50">Монтаж кондиционера</a>
-                    <a href="#" class="font-medium m-2 p-2 block hover:bg-gray-50">Уборка</a>
+                    <a href="../apartment/apartment.html" class="font-medium m-2 p-2 block hover:text-home ">Квартирный переезд</a>
+                    <a href="../office/office.html" class="font-medium m-2 p-2 block hover:text-home ">Офисный переезд</a>
+                    <a  href="../services/services.html" class="font-medium m-2 p-2 block hover:text-home ">Услуги грузчиков</a>
+                    <a href="#" class="font-medium m-2 p-2 block hover:text-home ">Грузоперевозки</a>
+                    <a href="../furniture/furniture.html" class="font-medium m-2 p-2 block hover:text-home ">Разборка-сборка мебели</a>
+                    <a href="../services-two/services-two.html" class="font-medium m-2 p-2 block hover:text-home ">Монтаж кондиционера</a>
+                    <a href="#" class="font-medium m-2 p-2 block hover:text-home ">Уборка</a>
                 </div>
             </div>
 
-            <div class="flex border-b items-center justify-between gap-5 hover:bg-gray-50">
-                <a href="#" class="font-medium m-3 p-3  ">Партнеры</a>
+            <div onclick="handleMenu()" class="  border-b   flex   hover:bg-gray-50">
+                <a href="../index.html#Partners" class="font-medium m-3 p-3 w-full  ">Партнеры</a>
             </div>
-            <div class="flex border-b items-center justify-between gap-5 hover:bg-gray-50">
-                <a href="#" class="font-medium m-3 p-3  ">Галерея</a>
+            <div onclick="handleMenu()" class="flex border-b       hover:bg-gray-50">
+                <a href="../index.html#Gallery" class="font-medium m-3 p-3 w-full  ">Галерея</a>
             </div>
-            <div class="flex border-b items-center justify-between gap-5 hover:bg-gray-50">
-                <a href="#" class="font-medium m-3 p-3  ">О нас</a>
+            <div onclick="handleMenu()" class="flex border-b     gap-5 hover:bg-gray-50">
+                <a href="../index.html#about" class="font-medium m-3 p-3 w-full  ">О нас</a>
             </div>
-            <div class="flex  items-center justify-between gap-5 hover:bg-gray-50">
-                <a href="#" class="font-medium m-3 p-3  ">Контакты</a>
+            <div onclick="handleMenu()" class="flex      gap-5 hover:bg-gray-50">
+                <a href="../index.html#Contacts" class="font-medium m-3 p-3 w-full  ">Контакты</a>
             </div>
 
-            <button class="w-full bg-home text-white   py-3 mb-4">Задать вопрос</button>
+            <button onclick="handleMenu()" data-modal-target="questionModalHome" data-modal-toggle="questionModalHome" class="w-full bg-home text-white   py-3 mb-4">Задать вопрос</button>
             <p style="text-align: center;   " class=" ">Мы в социальных сетях</p>
 
             <div style="margin-left: auto ; margin-right: auto; width: max-content"
                  class=" flex justify-center gap-4 mt-5 mx-auto ">
-                <img src="../images/instagram.png" alt="instagram" class="w-6 h-6">
-                <img src="../images/telegram.png" alt="telegram" class="w-6 h-6">
-                <img src="../images/facebook.png" alt="facebook" class="w-6 h-6">
-                <img src="../images/youtube.png" alt="youtube" class="w-6 h-6">
+                <img onclick="window.open('https://instagram.com/eastline.pereezd' , '_blank')" src="../images/instagram.png" alt="instagram" class="w-6 h-6 cursor-pointer">
+                <img onclick="window.open('https://t.me/eastlinepereezd' , '_blank')" src="../images/telegram.png" alt="telegram" class="w-6 h-6 cursor-pointer">
+                <img onclick="window.open('https://fb.com/eastline.pereezd' , '_blank')" src="../images/facebook.png" alt="facebook" class="w-6 h-6 cursor-pointer">
+                <img onclick="window.open('https://youtube.com/@EastlinePereezdUz' , '_blank')" src="../images/youtube.png" alt="youtube" class="w-6 h-6 cursor-pointer">
             </div>
 
 
         </div>
     </div>
+
 </nav>
+
+
+<div id="send-message"
+     class="shadow-custom-card fixed top-8 left-1/2 translate-x-[-50%] z-50 hidden w-[420px] p-8 text-center  bg-white">
+    <div class=" mx-auto w-[71px] h-[71px] mb-3 bg-home flex items-center justify-center rounded-full">
+        <img src="../images/send-message-icon.png" alt="send">
+    </div>
+    <p class="text-[20px] text-[#333333] font-medium ">Успешно оформлено!</p>
+    <p class="text-base text-[#8F8F8F]  ">Оператор позвонит вам</p>
+    <button onclick="sendMessageClosed()"
+            class="block mx-auto mt-6 w-full border-gray-400 bg-home text-white px-5 py-3">Понятно
+    </button>
+</div>
+
+
 
 
 <section class="px-6  md:px-24  ">
@@ -249,56 +289,69 @@
 
 </section>
 
-<section class="px-6  mt-24 md:mt-28 md:px-24   ">
 
-    <div class="  border-t py-16   grid gap-4  lg:grid-cols-3  md:grid-cols-2  sm:grid-cols-1 ">
 
-        <div class="  text-white   text-center ">
-            <img src="../images/logo.png" alt="logo">
+<section class="px-6        mt-24 md:mt-28 md:px-24">
+
+    <div class=" border-t py-16 block md:flex   gap-4">
+
+        <div class=" w-[40%]   text-white   text-center mb-8 ">
+            <img onclick="window.location.href='../index.html'" class="cursor-pointer" src="../images/logo.png" alt="logo">
         </div>
 
-        <div class=" h-[250px]  text-[#C0C0C0] flex flex-col justify-between items-start  ">
-            <div class="">
-                <h1 class="text-black-20 text-md">Меню</h1>
-                <p>Главная</p>
-                <p>О нас</p>
-                <p>Партнеры</p>
-                <p>Галерея</p>
-                <p>Услуги</p>
+        <div class="grid grid-cols-1   w-full md:grid-cols-2 gap-8">
+            <div class=" w-full      text-lg text-[#C0C0C0] flex flex-col justify-between items-start gap-10">
+                <div class="">
+                    <h1 class="text-black-20 text-md font-medium mb-4">Меню</h1>
+                    <a href="../index.html#" class="hover:text-home cursor-pointer mb-2 block">Главная</a>
+                    <a href="../index.html#about" class="hover:text-home cursor-pointer mb-2 block">О нас</a>
+                    <a href="../index.html#Partners" class="hover:text-home cursor-pointer mb-2 block">Партнеры</a>
+                    <a href="../index.html#Gallery" class="hover:text-home cursor-pointer mb-2 block">Галерея</a>
+                    <a href="../index.html#Services" class="hover:text-home cursor-pointer mb-2 block">Услуги</a>
+                </div>
+
             </div>
+
+
+            <div class=" w-full  text-[#C0C0C0]   mt-6 md:mt-0  ">
+                <div class=" text-lg ">
+                    <h1 class="text-black-20 text-md font-medium mb-4 ">Контакты</h1>
+                    <div class="flex items-center justify-start gap-2">
+                        <img src="../images/location-black.png" alt="location">
+                        <p>г.Ташкент, массив Себзар М17/18, дом 4, кв 3</p>
+                    </div>
+                    <div class="flex items-center justify-start gap-2 my-6">
+                        <img src="../images/email-blak.png" alt="email">
+                        <p>info@eastline.uz</p>
+                    </div>
+                    <div class="flex items-center justify-start gap-2">
+                        <img src="../images/phone-black.png" alt="phone">
+                        <p>+998 94 280 37 38 <br> +998 93 399 90 51</p>
+                    </div>
+                </div>
+
+            </div>
+
             <div class="">
-                <h1 class="text-black-20 text-md">Социальные сети</h1>
-                <div class="flex items-center justify-between">
-                    <img src="../images/instagram.png" alt="instagram">
-                    <img src="../images/telegram.png" alt="telegram">
-                    <img src="../images/facebook.png" alt="facebook">
-                    <img src="../images/youtube.png" alt="youtube">
+                <h1 class="text-black-20 text-md font-medium mb-4">Социальные сети</h1>
+                <div class="flex items-center justify-start gap-6">
+                    <img class="cursor-pointer" onclick="window.open('https://instagram.com/eastline.pereezd' , '_blank')"
+                         src="../images/instagram.png" alt="instagram">
+                    <img class="cursor-pointer" onclick="window.open('https://t.me/eastlinepereezd' , '_blank')"
+                         src="../images/telegram.png"
+                         alt="telegram">
+                    <img class="cursor-pointer" onclick="window.open('https://fb.com/eastline.pereezd' , '_blank')"
+                         src="../images/facebook.png"
+                         alt="facebook">
+                    <img class="cursor-pointer" onclick="window.open('https://youtube.com/@EastlinePereezdUz' , '_blank')"
+                         src="../images/youtube.png" alt="youtube">
                 </div>
             </div>
         </div>
-
-
-        <div class="     text-[#C0C0C0]   ">
-            <div class="">
-                <h1 class="text-black-20 text-md">Контакты</h1>
-                <div class="flex items-center justify-start gap-2">
-                    <img src="../images/location-black.png" alt="location">
-                    <p>г.Ташкент, массив Себзар М17/18, дом 4, кв 3</p>
-                </div>
-                <div class="flex items-center justify-start gap-2 my-6">
-                    <img src="../images/email-blak.png" alt="email">
-                    <p>info@eastline.uz</p>
-                </div>
-                <div class="flex items-center justify-start gap-2">
-                    <img src="../images/phone-black.png" alt="phone">
-                    <p>+998 94 280 37 38 <br> +998 93 399 90 51</p>
-                </div>
-            </div>
-
-        </div>
+    </div>
 
     </div>
-    </div>
+
 
 
 </section>

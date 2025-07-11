@@ -1,8 +1,9 @@
 const navDialog = document.getElementById('navbar-dialog')
-
 function handleMenu() {
     navDialog.classList.toggle('hidden');
 }
+
+
 
 
 document.getElementById('handleServices').addEventListener('click', () => {
@@ -14,22 +15,22 @@ document.getElementById('handleServices').addEventListener('click', () => {
 });
 
 
-const navServices = document.getElementById('services-navbar')
 
+
+
+
+const navServices = document.getElementById('services-navbar')
+const menuButton = document.getElementById('menu-button');
 function handleServices() {
     navServices.classList.toggle('hidden');
 }
+document.addEventListener('click', function (event) {
+    if (navServices.contains(event.target) || menuButton.contains(event.target)) {
+        return;
+    }
+    navServices.classList.add('hidden');
+});
 
-
-
-let count = 0;
-
-
-// document.getElementById('plus').addEventListener('click', () => {
-//     let  number = document.getElementById('number').value*1;
-//     number++;
-//     console.log(number)
-// })
 
 
 
@@ -72,6 +73,26 @@ function calculator (){
 
 
 }
+
+
+function sendMessage(){
+    document.getElementById('send-message').style.display = 'block';
+    setTimeout(()=>{
+        document.getElementById('send-message').style.display = 'none';
+    } , 3000)
+}
+
+
+
+
+function sendMessageClosed(){
+    document.getElementById('send-message').style.display = 'none';
+}
+
+
+
+
+
 
 
 
