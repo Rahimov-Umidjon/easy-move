@@ -78,7 +78,17 @@
       <change afterPath="$PROJECT_DIR$/../my-react-app/src/i18n.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-react-app/src/locales/ru/translation.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-react-app/src/media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/top-icon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apartment/apartment.html" beforeDir="false" afterPath="$PROJECT_DIR$/apartment/apartment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/furniture/furniture.html" beforeDir="false" afterPath="$PROJECT_DIR$/furniture/furniture.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/office/office.html" beforeDir="false" afterPath="$PROJECT_DIR$/office/office.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.css" beforeDir="false" afterPath="$PROJECT_DIR$/output.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services-two/services-two.html" beforeDir="false" afterPath="$PROJECT_DIR$/services-two/services-two.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,9 +99,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -158,6 +168,8 @@
       <workItem from="1752145150409" duration="6651000" />
       <workItem from="1752151909412" duration="21444000" />
       <workItem from="1752226350716" duration="30052000" />
+      <workItem from="1752266454396" duration="814000" />
+      <workItem from="1752300828004" duration="5457000" />
     </task>
     <servers />
   </component>

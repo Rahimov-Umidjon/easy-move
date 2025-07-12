@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-    content: ['./node_modules/flowbite/**/*.js', "./index.html", "./apartment/apartment.html", "./services/services.html", "./furniture/furniture.html" , "./services-two/services-two.html/furniture.html" , "./office/office.html","./calculator/calculator.html" ],
+    content: ['./node_modules/flowbite/**/*.js', "./index.html", "./apartment/apartment.html", "./services/services.html", "./furniture/furniture.html", "./services-two/services-two.html/furniture.html", "./office/office.html", "./calculator/calculator.html"],
 
     theme: {
         extend: {
