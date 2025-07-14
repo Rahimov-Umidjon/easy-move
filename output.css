@@ -1713,6 +1713,14 @@ video {
   padding-left: 2rem;
 }
 
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pb-14 {
+  padding-bottom: 3.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1842,6 +1850,18 @@ video {
 
 .leading-\[1\.1\] {
   line-height: 1.1;
+}
+
+.leading-\[1\.4\] {
+  line-height: 1.4;
+}
+
+.leading-\[0\.9\] {
+  line-height: 0.9;
+}
+
+.tracking-normal {
+  letter-spacing: 0em;
 }
 
 .text-\[\#333333\] {
