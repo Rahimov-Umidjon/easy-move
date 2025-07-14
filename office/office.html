@@ -103,12 +103,12 @@
                 <div class="mt-4 ">
 
                     <label class="block text-base mb-3 text-[#333333]" for="name">Сообщение</label>
-                    <textarea onclick="calculator()" type="" id="textura-question"
+                    <textarea type="" id="textura-question"
                               class="w-full h-[124px] text-black-20 bg-[#F7F7F7] pl-2   focus:border-0 rounded-none"></textarea>
 
                 </div>
 
-                <button onclick="sendMessage()" data-modal-hide="questionModalHome"
+                <button onclick="sendMessageTwo()" data-modal-hide="questionModalHome"
                         class="h-[35px] md:h-[50px] mt-4 w-full border bg-home text-white">Отправить
                 </button>
 
@@ -217,13 +217,13 @@
 <!--Body section-->
 <section class="px-6  md:px-24  ">
     <div class="w-[90%]   lg:w-[50%] mx-auto">
-        <img class=" mt-8 h-[400px] hidden md:block mx-auto object-cover" src="../images/office.png"
+        <img class=" mt-8 block mx-auto object-cover" src="../images/office.png"
              alt="office-1">
         <!--        <img class=" block mt-8 md:hidden mx-auto" src="../images/office.png"-->
         <!--             alt="Carusel-1">-->
 
-        <h1 class="text-home font-medium text-[32px] text-center my-8   ">Офисный переезд в Ташкенте</h1>
-        <p class=" text-[#414141] text-lg  text-justify   mx-auto mb-4">
+        <h1 class="text-home font-medium text-xl md:text-[32px] text-center my-8   ">Офисный переезд в Ташкенте</h1>
+        <p class=" text-[#414141] text-base md:text-lg  text-justify   mx-auto mb-4">
             Офисный переезд - это процесс перемещения офиса или рабочего пространства из одного места в другое. Он может
             быть вызван различными причинами, такими как расширение компании, изменение места работы или сокращение
             затрат на аренду. Организация офисного переезда требует более тщательной планировки и координации, чем
@@ -233,7 +233,7 @@
             Важными этапами офисного переезда являются:
         </p>
 
-        <ul class=" text-[#414141] text-lg  text-justify   mx-auto space-y-4  ">
+        <ul class=" text-[#414141] text-base md:text-lg  text-justify   mx-auto space-y-4  ">
             <li> 1. Уведомление сотрудников: сообщите всем сотрудникам о переезде заранее, чтобы они могли
                 подготовиться.
             </li>
@@ -298,12 +298,13 @@
                 <div class="mt-4 ">
 
                     <label class="block text-base mb-3 text-[#333333]" for="name">Сообщение</label>
-                    <textarea onclick="calculator()" type="" id="textura"
+                    <textarea type="" id="textura"
                               class="w-full h-[124px] text-black-20 bg-[#F7F7F7] pl-2   focus:border-0 rounded-none"></textarea>
 
                 </div>
 
-                <button id="btn-next" class="h-[35px] md:h-[50px] mt-4 w-full border text-white bg-home ">Отправить
+                <button onclick="sendMessageTwo()" data-modal-hide="orderModalOffice" id="btn-next"
+                        class="h-[35px] md:h-[50px] mt-4 w-full border text-white bg-home ">Отправить
                 </button>
 
             </div>
@@ -381,7 +382,7 @@
 
 </section>
 
-<div class="h-[40px] bg-[#F0F0F0] text-[#C0C0C0] text-md text-center flex justify-center items-center  ">
+<div class=" py-3 bg-[#F0F0F0] text-[#C0C0C0] text-md text-center flex justify-center items-center  ">
     <p>© 2025 “Eastline Express LLC”. Все права защищены.</p>
 </div>
 

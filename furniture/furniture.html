@@ -103,12 +103,12 @@
                 <div class="mt-4 ">
 
                     <label class="block text-base mb-3 text-[#333333]" for="name">Сообщение</label>
-                    <textarea onclick="calculator()" type="" id="textura-question"
+                    <textarea   type="" id="textura-question"
                               class="w-full h-[124px] text-black-20 bg-[#F7F7F7] pl-2   focus:border-0 rounded-none"></textarea>
 
                 </div>
 
-                <button onclick="sendMessage()" data-modal-hide="questionModalHome"
+                <button onclick="sendMessageTwo()" data-modal-hide="questionModalHome"
                         class="h-[35px] md:h-[50px] mt-4 w-full border bg-home text-white">Отправить
                 </button>
 
@@ -217,19 +217,18 @@
 <!--Body section-->
 <section class="px-6  md:px-24  ">
     <div class="w-[90%]   lg:w-[50%] mx-auto text-[#414141] text-lg  text-justify">
-        <img class=" mt-8 h-[400px] hidden md:block mx-auto" src="../images/office.png"
+        <img class=" mt-8  block mx-auto" src="../images/office.png"
              alt="office-1">
-        <img class=" block mt-8 md:hidden mx-auto" src="../images/office.png"
-             alt="Carusel-1">
 
-        <h1 class="text-home font-medium text-[32px] text-center my-8   ">Разборка-сборка мебели в Ташкенте</h1>
-        <p class="  mb-4">
+
+        <h1 class="text-home font-medium text-xl md:text-[32px] text-center my-8   ">Разборка-сборка мебели в Ташкенте</h1>
+        <p class="  mb-4 text-base md:text-lg">
             Сборка мебели – это процесс составления отдельных элементов и деталей мебели в цельное изделие. Этот процесс
             может потребовать навыков в сборке, инструментов и технического понимания инструкций и схем. Вот некоторые
             общие шаги, которые могут помочь вам при сборке мебели:
         </p>
 
-        <ul class="         space-y-4  ">
+        <ul class=" space-y-4 text-base md:text-lg ">
             <li> 1. Проверьте все детали: перед началом сборки убедитесь, что у вас есть все необходимые детали и
                 инструменты. Распакуйте коробку с мебелью и проверьте наличие всех элементов, а также проверьте, нет ли
                 повреждений или дефектов.
@@ -254,7 +253,7 @@
             </li>
         </ul>
 
-        <p class="mt-8">
+        <p class="mt-8 text-base md:text-lg">
             Обычно крупные магазины предлагают услуги сборки мебели за отдельную плату, если вам необходима
             профессиональная помощь. Это может быть особенно полезно для крупных и сложных предметов мебели. Учтите, что
             время, необходимое для сборки мебели, может варьироваться в зависимости от сложности и типа мебели. Если вам
@@ -293,12 +292,12 @@
                 <div class="mt-4 ">
 
                     <label class="block text-base mb-3 text-[#333333]" for="name">Сообщение</label>
-                    <textarea onclick="calculator()" type="" id="textura"
+                    <textarea   type="" id="textura"
                               class="w-full h-[124px] text-black-20 bg-[#F7F7F7] pl-2   focus:border-0 rounded-none"></textarea>
 
                 </div>
 
-                <button id="btn-next" class="h-[35px] md:h-[50px] mt-4 w-full border bg-home text-white">Отправить
+                <button onclick="sendMessageTwo()" data-modal-hide="orderModalFurniture" id="btn-next" class="h-[35px] md:h-[50px] mt-4 w-full border bg-home text-white">Отправить
                 </button>
 
             </div>
@@ -377,10 +376,9 @@
 
 
 </section>
-<div class="h-[40px] bg-[#F0F0F0] text-[#C0C0C0] text-md text-center flex justify-center items-center  ">
+<div class=" py-3 bg-[#F0F0F0] text-[#C0C0C0] text-md text-center flex justify-center items-center  ">
     <p>© 2025 “Eastline Express LLC”. Все права защищены.</p>
 </div>
-
 <!--Scroll top-->
 <div id="scrollTopBtn"
      class="bg-home hidden  w-[50px] h-[50px]   rounded-full cursor-pointer justify-center items-center fixed bottom-4 right-4 z-50  ">
