@@ -78,17 +78,9 @@
       <change afterPath="$PROJECT_DIR$/../my-react-app/src/i18n.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-react-app/src/locales/ru/translation.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-react-app/src/media.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/top-icon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apartment/apartment.html" beforeDir="false" afterPath="$PROJECT_DIR$/apartment/apartment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture/furniture.html" beforeDir="false" afterPath="$PROJECT_DIR$/furniture/furniture.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/office/office.html" beforeDir="false" afterPath="$PROJECT_DIR$/office/office.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.css" beforeDir="false" afterPath="$PROJECT_DIR$/output.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services-two/services-two.html" beforeDir="false" afterPath="$PROJECT_DIR$/services-two/services-two.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,23 +109,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/rahim/Desktop/project-test/images&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.3.1.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/rahim/OneDrive/Рабочий стол/project-test",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.3.1.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\rahim\Desktop\project-test\images" />
@@ -169,7 +162,8 @@
       <workItem from="1752151909412" duration="21444000" />
       <workItem from="1752226350716" duration="30052000" />
       <workItem from="1752266454396" duration="814000" />
-      <workItem from="1752300828004" duration="5457000" />
+      <workItem from="1752300828004" duration="6252000" />
+      <workItem from="1752475076697" duration="3383000" />
     </task>
     <servers />
   </component>
