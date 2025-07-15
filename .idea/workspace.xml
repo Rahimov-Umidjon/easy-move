@@ -79,12 +79,11 @@
       <change afterPath="$PROJECT_DIR$/../my-react-app/src/locales/ru/translation.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-react-app/src/media.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apartment/apartment.html" beforeDir="false" afterPath="$PROJECT_DIR$/apartment/apartment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture/furniture.html" beforeDir="false" afterPath="$PROJECT_DIR$/furniture/furniture.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/office/office.html" beforeDir="false" afterPath="$PROJECT_DIR$/office/office.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services-two/services-two.html" beforeDir="false" afterPath="$PROJECT_DIR$/services-two/services-two.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.css" beforeDir="false" afterPath="$PROJECT_DIR$/output.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +168,8 @@
       <workItem from="1752266454396" duration="814000" />
       <workItem from="1752300828004" duration="6252000" />
       <workItem from="1752475076697" duration="4384000" />
-      <workItem from="1752479537313" duration="29092000" />
+      <workItem from="1752479537313" duration="30042000" />
+      <workItem from="1752561246326" duration="4453000" />
     </task>
     <servers />
   </component>

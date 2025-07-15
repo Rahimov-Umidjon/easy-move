@@ -158,6 +158,35 @@ scrollTopBtn.addEventListener('click', () => {
 
 
 
+//
+// const sponsor = document.querySelectorAll('.sponsor');
+//
+// let index = 0;
+//
+// function sponsorImg(value){
+//     sponsor[value].style.display = 'block';
+// }
+//
+// setInterval(()=>{
+//     if (index < sponsor.length) {
+//         sponsor.forEach((item) => {
+//             item.style.display = 'none';
+//         })
+//         sponsorImg(index);
+//         index++;
+//     }else if(index === sponsor.length) {
+//         sponsor.forEach((item) => {
+//             item.style.display = 'none';
+//         })
+//         sponsorImg(index);
+//         index++;
+//     }
+// }, 3000);
+//
+
+
+
+
 
 
 

@@ -12,6 +12,7 @@
 </head>
 <body class="font-inter">
 
+
 <!--Navbar Section-->
 <nav class="py-3 h-[80px] px-6   lg:px-14 xl:px-28 flex justify-between items-center bg-[#F8F8F8] ">
     <img onclick="window.location.href='index.html'" class="w-[100px] h-[32px] md:w-[118px] md:h-[38px] cursor-pointer"
@@ -829,13 +830,41 @@
 
 <section class="pt-24 md:pt-28">
     <p class="text-center text-[32px] font-semibold mb-14">Нас рекомендуют</p>
-    <div class="overflow-y-scroll   scrollbar-hide block md:flex items-center justify-between gap-3">
+    <div class="overflow-y-scroll   scrollbar-hide hidden md:flex items-center justify-between gap-3">
         <img class="mx-auto mb-12 " src="./images/safia-2.png" alt="safia">
         <img class="mx-auto mb-12 " src="./images/NLstore.png" alt="NLstore">
         <img class="mx-auto mb-12 " src="./images/salon.png" alt="salon">
         <img class="mx-auto mb-12 " src="./images/mirArab.png" alt="mirArab">
         <img class="mx-auto  " src="./images/kareana.png" alt="kareana">
     </div>
+    <div id="animation-carousel" class="block md:hidden relative w-full" data-carousel="slide" data-carousel-interval="2000">
+        <!-- Carousel wrapper -->
+        <div class="relative h-[200px] overflow-hidden">
+
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="./images/salon.png" class="absolute block w-[160px] h-[160px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="./images/NLstore.png" class="absolute block w-[295px] h-[118px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="./images/kareana.png" class="absolute block w-[326px] h-[39px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+
+            <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                <img src="./images/mirArab.png" class="absolute block w-[400px] h-[112px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="./images/safia-2.png" class="absolute block w-[200px] h-[100px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+
+        </div>
+
+    </div>
+
 </section>
 
 <!--Gallery section-->
